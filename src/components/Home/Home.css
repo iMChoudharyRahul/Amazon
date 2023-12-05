@@ -1,0 +1,43 @@
+.home {
+  background-image: linear-gradient(#a8f7f2, #dd9dc4);
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.carousels-section {
+  height: 30vh;
+  width: 100%;
+  z-index: 0;
+}
+
+.carousel-indicators {
+  display: none !important;
+}
+
+.ads-section {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 10rem;
+}
+
+.product-section {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+/* -------Media Queries----- */
+@media (min-width: 330px) and (max-width: 499px) {
+  .carousels-section {
+    height: auto;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 329px) {
+  .carousels-section {
+    height: auto;
+  }
+}

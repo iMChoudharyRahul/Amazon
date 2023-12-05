@@ -1,0 +1,152 @@
+.product__box {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  padding: 30px 10px;
+  width: 100%;
+  min-width: 100px;
+}
+
+.product__item {
+  display: flex;
+  flex-direction: column;
+  width: 23vw;
+  margin: 0.5rem;
+  padding: 20px 10px;
+  background-color: white;
+}
+
+.item__catagory {
+  color: #808080;
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-align: right;
+}
+
+.product__img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  align-items: center;
+}
+
+.product__img>img {
+  width: 13rem;
+  height: 16rem;
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.product__title {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0 0 0;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.product__price>strong {
+  font-size: 1.5rem;
+  color: #808080;
+
+}
+
+.product__price>small {
+  font-size: 1.5rem;
+}
+
+.product__description {
+  overflow: hidden;
+  width: 100%;
+}
+
+.product__rating {
+  display: flex;
+  flex-direction: row;
+}
+
+.half-star {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  /* Adjust the width as needed */
+  overflow: hidden;
+}
+
+.half-star::before {
+  content: "⭐";
+  /* Replace with a half-filled star character */
+  position: absolute;
+  left: 0;
+  width: 50%;
+  /* Adjust the width to control the fill level */
+  overflow: hidden;
+}
+
+.product__btn {
+  margin-top: 0.25rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid;
+  cursor: pointer;
+  background-color: #f7ca00;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.product__btn:hover {
+  background-color: #b19209;
+}
+
+.oval-loading {
+  display: flex;
+  justify-content: center;
+  height: 7vh;
+}
+
+/* -------Media Queries----- */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .product__item {
+    width: 31vw;
+  }
+
+  .title {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+  .product__item {
+    width: 46vw;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+  .product__item {
+    width: 85vw;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 499px) {
+  .product__item {
+    width: 85vw;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 299px) {
+  .product__item {
+    width: 85vw;
+  }
+}
