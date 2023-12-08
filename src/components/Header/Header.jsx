@@ -7,7 +7,7 @@ import { useStateValue } from "../../context/StateProvider";
 import { amazonLogo } from "../../assets/ExportImg";
 
 function Header() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
 
   return (
     <>

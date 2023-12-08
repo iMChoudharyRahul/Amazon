@@ -3,7 +3,7 @@ import "./Checkout.css";
 import { useStateValue } from "../context/StateProvider";
 
 function CheckoutProduct({ id, title, image, price, category }) {
-  const [{ basket }, dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
   const quantityRef = useRef(1); // Use a ref to track the quantity input
 
   const removeFromBasket = () => {

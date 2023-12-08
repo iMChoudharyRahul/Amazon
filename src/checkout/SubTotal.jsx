@@ -5,7 +5,7 @@ import { getBasketTotal } from "../components/reducer";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 function SubTotal() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
   console.log("Check on Subtotal:", basket);
   return (
     <>

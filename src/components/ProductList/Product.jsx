@@ -5,7 +5,7 @@ import { useStateValue } from "../../context/StateProvider";
 import ProductContext from "../../context/CreateContext";
 
 function Product() {
-  const [state, dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
   const { productList, loading, error } = useContext(ProductContext);
   const [productData, setProductData] = useState([]);
 

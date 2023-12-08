@@ -6,7 +6,7 @@ import { useStateValue } from "../context/StateProvider";
 import { EmptyCartImg } from "../assets/ExportImg.js";
 
 function Checkout() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
   console.log("Check Basket Value cart page:", basket);
   return (
     <div className="checkout">
