@@ -3,9 +3,8 @@ export const initialState = {
 };
 
 export var getBasketTotal = function getBasketTotal(basket) {
-  console.log("Get Basket Function Inside:", basket);
   return basket?.reduce(function (amount, item) {
-    if (item.quantity) return item.price * item?.quantity * 83 + amount;
+    if (item.quantity) return Math.floor(item.price * item?.quantity * 83 + amount);
 
     return item.price * 83 + amount;
   }, 0);

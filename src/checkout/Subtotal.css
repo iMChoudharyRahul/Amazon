@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40vh;
+    width: 54vh;
     height: fit-content;
     padding: 1rem;
     background-color: #f3f3f3;
@@ -10,15 +10,23 @@
     border-radius: 3px;
 }
 
-.subtotal__gift {
-    display: flex;
-    align-items: center;
+.check__circle {
+ color: #067d62;
 }
 
-.subtotal__gift>input {
-    margin-right: 5px;
+.order__eligible{
+  font-size: 1rem;
 }
 
+.free_delivery a {
+ text-decoration: none;
+ color: #067d62;
+}
+
+.subtotal__item {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 .subtotal button {
     background: #f7ca00;
     border-radius: 2px;
