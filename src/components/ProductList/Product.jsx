@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
+import { Oval } from "react-loader-spinner";
 import "./Product.css";
 import { useStateValue } from "../../context/StateProvider";
 import ProductContext from "../../context/CreateContext";
-import { Oval } from "react-loader-spinner";
 
 function Product() {
   const [state, dispatch] = useStateValue();

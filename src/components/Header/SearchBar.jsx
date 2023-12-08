@@ -1,10 +1,11 @@
-import SearchIcon from "@mui/icons-material/Search";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import SearchIcon from "@mui/icons-material/Search";
 
 const SearchBar = () => {
   const searchInputRef = useRef(null);
   const navigate = useNavigate();
+
   return (
     <form className="search-container" onSubmit={(e) => e.preventDefault()}>
       <input

@@ -13,31 +13,25 @@ function Header() {
     <>
       {/* header logo */}
       <div className="header">
-        {/* ===============<Navbar>======================= */}
         <Link to="/" style={{ textDecoration: "none" }}>
           <div className="header__logo">
             <img className="header__logo_img" src={amazonLogo} alt="logo" />
           </div>
         </Link>
-        {/* ==============<search bar>========================= */}
         <div className="header__search">
           <SearchBar />
         </div>
-        {/* =================<navigation part>================= */}
         <div className="header__nav">
           <div className="nav__item">
             <span className="nav__itemLineOne">Hello, Sign in</span>
             <Link to="/login" style={{ textDecoration: "none" }}>
               <span className="nav__itemLineTwo">Account & list</span>
-              {/* <span class="nav-icon nav-arrow" style="visibility: visible;"></span> */}
             </Link>
           </div>
-
           <div className="nav__item return-order">
             <span className="nav__itemLineOne">Return</span>
             <span className="nav__itemLineTwo">& Order</span>
           </div>
-
           <div className="nav__itemBasket">
             <Link to="/checkout" style={{ textDecoration: "none" }}>
               <span className="nav__iconBasket">

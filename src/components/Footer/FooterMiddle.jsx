@@ -1,6 +1,6 @@
 import React from "react";
-import FooterMiddleItem from "../../constants/FooterMiddleItem";
 import { Link } from "react-router-dom";
+import FooterMiddleItem from "../../constants/FooterMiddleItem";
 import { amazonLogo, indiaFlag } from "../../assets/ExportImg";
 
 const FooterMiddle = () => {

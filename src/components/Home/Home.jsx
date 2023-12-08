@@ -1,8 +1,8 @@
 import React from "react";
-import Product from "../ProductList/Product";
 import "./Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
+import Product from "../ProductList/Product";
 import ProductAds from "../ProductsAds/ProductAds";
 import {
   SliderFive,
@@ -20,6 +20,7 @@ function Home() {
     SliderFour,
     SliderFive,
   ];
+
   return (
     <>
       <div className="home">

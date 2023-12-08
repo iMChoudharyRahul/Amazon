@@ -1,6 +1,6 @@
 import React from "react";
-import ProductAdsData from "../../constants/ProductAds";
 import "./ProductAds.css";
+import ProductAdsData from "../../constants/ProductAds";
 
 const ProductAds = () => {
   return (

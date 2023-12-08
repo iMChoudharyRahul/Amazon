@@ -20,11 +20,6 @@ const ProductAdsData = [
     category: "Electronics",
     image: ElectronicItems,
   },
-  //   {
-  //     title: "Flat 50% off | Styles for men",
-  //     category: "MensCasuals",
-  //     image: MensCasuals,
-  //   },
 ];
 
 export default ProductAdsData;

@@ -69,7 +69,6 @@
     cursor: pointer;
     border: none;
     border-radius: 0 4px 4px 0;
-    border-radius: 0\9;
     background-position: 0 -381px;
     background-color: #febd69;
 }
@@ -80,7 +79,6 @@
 
 .header__nav {
     display: flex;
-    /* width: 18vw; */
     justify-content: space-evenly;
 }
 
